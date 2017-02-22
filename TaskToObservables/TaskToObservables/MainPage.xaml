@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:TaskToObservables"
+             x:Class="TaskToObservables.MainPage">
+
+  <StackLayout>
+    <Label Text="Hi!"
+             VerticalOptions="Center"
+             HorizontalOptions="Center"
+           x:Name="someLabel"/>
+
+    <Button x:Name="BOOM" Text="Click to Pop and set Label"></Button>
+
+    <Label LineBreakMode="WordWrap" x:Name="lblError"></Label>
+  </StackLayout>
+
+</ContentPage>
